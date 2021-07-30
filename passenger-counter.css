@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+body:before {
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1533404378786-7ef0715ec859?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3Vid2F5JTIwc3RhdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 67%;
+}
+
+#welcome-el {
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1, h2 {
+  position: relative;
+  color: #000;
+  font-size: 3em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+button {
+  position: relative;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 25%;
+  margin-left: 50%;
+  left: -12.5%;
+}
+
+#increment-btn {
+  background-color: darkred;
+}
+
+#save-btn {
+  background-color: darkgreen;
+}
+
+#previous-entries {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+
+}
